@@ -141,6 +141,11 @@ for i in s:
 for i in range(0, 10, 2):
     print(i)
 
+# range()
+for i in range(5):
+    print(i)       # Output: 0 1 2 3 4
+
+
 # Nested for loop
 for i in range(1, 4):
     for j in range(1, 4):
@@ -162,9 +167,3 @@ print(len(cars))  # Output: 3
 # id()
 print(id(cars))  # Output: Unique ID of the list object
 
-# type()
-print(type(cars))  # Output: <class 'list'>
-
-# range()
-for i in range(5):
-    print(i)  # Output: 0 1 2 3 4
