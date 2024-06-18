@@ -51,11 +51,11 @@ insert into products values(7, 'JBL speaker', 6000, 2, 'Delhi');
 
 #Inserting values into customer table
 insert into customer (cid, cname, age, addr) values
-(101,'Ravi',30,'fdslfjl'),
-(102,'Rahul',25,'fdslfjl'),
-(103,'Simran',32,'fdslfjl'),
-(104,'Purvesh',28,'fdslfjl'),
-(105,'Sanjana',22,'fdslfjl');
+(101,'Ravi',30,'abc'),
+(102,'Rahul',25,'def'),
+(103,'Simran',32,'jhi'),
+(104,'Purvesh',28,'klm'),
+(105,'Sanjana',22,'nop');
 
 #Inserting values into orders table
 insert into orders values(10001,102,3,2700);
