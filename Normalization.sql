@@ -5,8 +5,8 @@
  
    
    OrderID	       CustomerName	     OrderDate	      ProductName	      Quantity
-     1	             John Doe	     2023-06-01   	     Apple	             5
-     2	            Jane Smith	     2023-06-02	      Orange, Banana	    3, 2
+     1	             John Doe	      2023-06-01   	      Apple	             5
+     2	            Jane Smith	    2023-06-02	      Orange, Banana	    3, 2
 
 This table is not in 1NF because the ProductName and Quantity columns contain multiple values.*/
 
@@ -34,9 +34,9 @@ drop table Orders;
 
 
 OrderID	        CustomerName	        OrderDate	        ProductName	        Quantity	   CustomerAddress
-  1	              John Doe	            2023-06-01	            Apple	           5	         123 Main St
-  2	             Jane Smith	            2023-06-02	            Orange	           3           	 456 Oak Ave
-  3	             Jane Smith	            2023-06-02	            Banana	           2	         456 Oak Ave
+  1	              John Doe	            2023-06-01	            Apple	           5	       123 Main St
+  2	             Jane Smith	            2023-06-02	            Orange	         3         456 Oak Ave
+  3	             Jane Smith	            2023-06-02	            Banana	         2	       456 Oak Ave
 
 The CustomerAddress is not fully dependent on the primary key OrderID but rather on CustomerName. */
 
@@ -91,7 +91,7 @@ VALUES
                               on the primary key but also that there are no transitive dependencies.
 
 OrderID	           CustomerID	        OrderDate	        ProductName	        Quantity	    SupplierName	    SupplierAddress
-  1	                   1	            2023-06-01	          Apple	               5	         FreshFarms           789 Pine Rd
+  1	                   1	            2023-06-01	          Apple	             5	         FreshFarms         789 Pine Rd
   2	                   2	            2023-06-02	          Orange	           3	         CitrusWorld	      890 Elm St
   3	                   2	            2023-06-02	          Banana	           2	         TropicFruits	      901 Maple St
 
