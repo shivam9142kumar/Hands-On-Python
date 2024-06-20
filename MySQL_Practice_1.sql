@@ -64,14 +64,15 @@ insert into orders values(10003,105,5,900);
 insert into orders values(10004,101,1,46000);
 
 
-#inserting values into payments table
-insert into payment values(1,10001,2700,'upi','completed');
-insert into payment values(2,10002,18000,'credit','completed');
-insert into payment values(3,10003,900,'debit','in process');
+#inserting values into payment table
+insert into payment values(201,10001,2700,'upi','completed');
+insert into payment values(202,10002,18000,'credit','completed');
+insert into payment values(203,10003,900,'debit','in process');
 
+select*  from payment;
 
 -- to delete table we use drop 
-drop table products ;
+drop table payment ;
 
 -- to drop whole database we use command
 drop database flipkart;
