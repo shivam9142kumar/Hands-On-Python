@@ -1,6 +1,6 @@
 use flipkart;
 
--- DELIMITER COMMAND: The DELIMITER command is used to change the standard delimiter(like a semicolon (;)), to a different character. 
+-- DELIMITER COMMAND: The DELIMITER command is used to change the standard delimiter(like a semicolon (;)), to a different character.. 
 
 -- PROCEDURES 
  /*  A procedure is a set of SQL statements that can be saved and reused.
