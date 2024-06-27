@@ -7,7 +7,7 @@ SELECT CHAR_LENGTH('Hello, World!');
 SELECT ASCII('A');
 SELECT ASCII('abc');
 
--- C) CONCAT(str1, str2, ...): This function concatenates two or more string values together.
+-- C) CONCAT(str1, str2, ...): This function concatenates two or more string values together..
 SELECT CONCAT('Hello', ' ', 'World');
 
 -- D) INSTR(str, substr): This function returns the position of the first occurrence
