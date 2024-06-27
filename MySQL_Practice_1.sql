@@ -1,7 +1,7 @@
 create database flipkart;
 use flipkart;
 
--- Products - pid, pname, price, stock, location (Mumbai or Delhi)
+-- Products - pid, pname, price, stock, location (Mumbai or Delhi).
 create table products
 (
 	pid int(3) primary key,
