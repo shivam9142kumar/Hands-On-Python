@@ -5,7 +5,7 @@
  
    
    OrderID	       CustomerName	     OrderDate	      ProductName	      Quantity
-     1	             John Doe	    2023-06-01   	      Apple	             5
+     1	             John Doe	    2023-06-01   	      Apple	              5
      2	            Jane Smith	    2023-06-02	      Orange, Banana	    3, 2
 
 This table is not in 1NF because the ProductName and Quantity columns contain multiple values.*/
