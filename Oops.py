@@ -1,4 +1,4 @@
-# Creating a class
+# Creating a class.
 '''
 class class_name:
     #This is a docstring. I have created a new class
