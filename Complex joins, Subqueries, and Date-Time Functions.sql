@@ -14,7 +14,7 @@ Both single-row and multiple-row subqueries will be evaluated once, before the p
 /*CORELATED SUBQUERIES: SQL Correlated Subqueries are used to select data from a table referenced in the outer query.*/
 
 -- SINGLE ROW SUBQUERIES:-
--- Example 1:- Find the customer who placed the order with the highest amount
+-- Example 1:- Find the customer who placed the order with the highest amount.
 
 select cname from customer 
 where cid=(select cid   
