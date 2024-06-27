@@ -9,7 +9,7 @@ print(thislist) # allows duplicates
 thislist = ["apple", "banana", "cherry"]
 print(len(thislist)) #list length
 
-# list data types
+# list data types.
 mylist = ["apple", "banana", "cherry"]
 print(type(mylist))
 
