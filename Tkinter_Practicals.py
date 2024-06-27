@@ -50,7 +50,7 @@ messagebox.askretrycancel("askretrycancel", "Try again?")
 
 root.mainloop() 
 
-# (3.) Create a multiline text input with advanced editing capabilities.
+# (3.) Create a multiline text input with advanced editing capabilities..
 
 import tkinter as tk
 root = Tk()
