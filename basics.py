@@ -10,7 +10,7 @@ x = 10
 y = 3.14  
 name = "Shivam"
 
-# INPUT AND OUTPUT
+# INPUT AND OUTPUT.
 
 your_name = input("Enter your name : ") #Input: "Shivam Kumar" 
 your_age = int(input("Enter your age : ")) #Input: "21"
