@@ -4,10 +4,10 @@ import mysql.connector
 #Importing everything else (like- connect, execute, etc...) from Connector
 from mysql.connector import *
 
-#Defining an object for MySQL
+# Defining an object for MySQL
 mydb = mysql.connector.connect(host="localhost", user="root", password="AJNABI", database="production")
 
-#Printing if connection is succesfully established
+# Printing if connection is succesfully established
 if mydb.is_connected():
     print("Connection Succesfuly established")
 else:
