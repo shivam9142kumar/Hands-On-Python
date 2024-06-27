@@ -7,7 +7,7 @@ thistuple = ("apple", "banana", "cherry", "apple", "cherry")
 print(thistuple)
 print(len(thistuple)) 
 
-# To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
+#To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
 thistuple = ("apple",)
 print(thistuple)
 print(type(thistuple))
