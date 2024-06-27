@@ -5,7 +5,7 @@ FROM customer
 GROUP BY cname
 HAVING Number >= 1;
 
--- B) GROUP BY using CONCAT
+-- B) GROUP BY using CONCAT.
 -- Group Concat is used in MySQL to get concatenated values of expressions with more than one result per column.
 SELECT location, GROUP_CONCAT(DISTINCT pname) AS product_names
 FROM products
