@@ -1,5 +1,5 @@
 -- JOINS
--- The word suggests, Joins are used to combine two or more tables to get specific data/information.
+-- The word suggests, Joins are used to combine two or more tables to get specific data/information..
 
 -- 1.Inner Join -> Matching values from both tables should be present.
 use flipkart;
