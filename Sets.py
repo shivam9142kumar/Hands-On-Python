@@ -8,7 +8,7 @@ thisset = {"apple", "banana", "cherry", "apple"}
 print(thisset) # Duplicates not allowed
 
 thisset = {"apple", "banana", "cherry", True, 1, 2}
-print(thisset) #True and 1 is considered the same value
+print(thisset) #True and 1 is considered the same value.
 
 thisset = {"apple", "banana", "cherry",
  False, True, 0}
