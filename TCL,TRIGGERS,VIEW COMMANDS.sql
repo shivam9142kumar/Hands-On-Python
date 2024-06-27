@@ -5,7 +5,7 @@ use flipkart;
 TCL commands are used to manage transactions, maintain ACID properties, and control the flow of data modifications.
 TCL commands ensure the consistency and durability of data in a database. */
 
--- Commit: Saves a transaction to the database
+-- Commit: Saves a transaction to the database.
 
 commit;
 
